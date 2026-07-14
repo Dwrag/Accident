@@ -1,0 +1,23 @@
+{
+  "best_model_name": "Gradient Boosting",
+  "needs_scaling": false,
+  "feature_columns": [
+    "latitude",
+    "longitude",
+    "hour",
+    "day_of_week",
+    "month",
+    "is_weekend",
+    "is_night",
+    "road_type_enc",
+    "speed_limit",
+    "junction",
+    "traffic_density",
+    "weather_enc",
+    "temperature",
+    "precipitation",
+    "wind_speed",
+    "visibility"
+  ],
+  "trained_on_rows": 6000
+}
